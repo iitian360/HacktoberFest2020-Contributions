@@ -5,6 +5,7 @@ int main(){
     cout<<"Enter Name: ";
     string s;
     cin >> s;
-    s = "Hello " + s + "\n";
-    cout<<s;
+    string temp="Hello ";
+    temp.append(s);
+    cout<<temp;
 }
